@@ -91,6 +91,8 @@ def plot_adsr(attack,decay,sustain,release):
         k = k + 1
         
     plt.plot(plot_list)
+    plt.ylabel('Volume')
+    plt.xlabel('Time %')
     plt.pause(0.0001)
 
 
